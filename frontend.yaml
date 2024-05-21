@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: feed1119/panda-frontend:c8246c5cf42d32ecc04bf00444a280d028d5230a
+        image: feed1119/panda-frontend:5344c2afcedcda942a4a01cc3ce5ff68b591138e
         ports:
         - containerPort: 80  # Nginx가 사용하는 포트
 
