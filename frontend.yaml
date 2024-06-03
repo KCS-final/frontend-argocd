@@ -16,7 +16,7 @@ spec:
         worker: web # 워커노드에 배포되도록 설정
       containers:
       - name: nginx
-        image: feed1119/panda-frontend:5353cf22cdb21c2ad1fada6614c4627ebd86abfe
+        image: feed1119/panda-frontend:bee0f402de339e77b0cec4be9e8476ef473a43b2
         ports:
         - containerPort: 80
 
