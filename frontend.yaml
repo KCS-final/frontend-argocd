@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       nodeSelector: # 추가된 부분
-        worker: web # 워커노드에 배포되도록 설정
+        worker: was # 워커노드에 배포되도록 설정
       containers:
       - name: nginx
         image: feed1119/panda-frontend:28437a924d4f1ba56b14ccbf980f329ab9190d2f
